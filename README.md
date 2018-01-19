@@ -1,3 +1,5 @@
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/pantuza/python2.4/)
+
 # Python 2.4.3 Docker image
 
 This image is useful for running tests using docker on legacy Python 2.4
