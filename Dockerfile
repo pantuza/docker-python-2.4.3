@@ -31,4 +31,4 @@ RUN rm -rvf /opt/Python*
 #
 # Default entrypoint is Python 2.4 shell
 #
-ENTRYPOINT python
+CMD python
