@@ -4,7 +4,7 @@ FROM opensuse:latest
 #
 # Install dependencies
 #
-RUN zypper update -y && zypper install -y wget tar gcc gcc-c++ make libopenssl-devel
+RUN zypper update -y && zypper install -y wget tar gcc gcc-c++ make libopenssl-devel python-pip
 
 
 #
