@@ -7,18 +7,18 @@ software
 
 ### How to use
 ```bash
-$> docker run --name legacy -it --rm pantuza/python24
+$> docker run --name legacy -it --rm pantuza/python2.4
 ```
 Default behavior is to enter in a Python 2.4 shell.
 If you want to run something else like get a bash shell, use:
 ```bash
-$> docker run --name legacy -it --rm pantuza/python24 bash
+$> docker run --name legacy -it --rm pantuza/python2.4 bash
 ```
 
 Or if you want to add your project files on the container and run your legacy
 project, use:
 ```bash
-$> docker run --name legacy -it --rm -v$(pwd):/opt/ -w /opt/ pantuza/python24
+$> docker run --name legacy -it --rm -v$(pwd):/opt/ -w /opt/ pantuza/python2.4
 python my_project_main.py
 ```
 
@@ -26,7 +26,7 @@ python my_project_main.py
 ### Basic Example
 
 ```bash
-$> docker run --rm -it --name legacy python24:latest                                                                 (master) 18:26:35
+$> docker run --rm -it --name legacy python2.4:latest                                                                 (master) 18:26:35
 Python 2.4.3 (#1, Jan 19 2018, 20:23:57)
 [GCC 4.8.5] on linux4
 Type "help", "copyright", "credits" or "license" for more information.
